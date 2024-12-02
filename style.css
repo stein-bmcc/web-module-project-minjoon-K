@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Spicy+Rice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Spicy+Rice&display=swap');
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 body.index{
     background-image: url(images/royal7.jpg);
-    background-size: cover;
+    background-size: 1200px;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -58,7 +58,7 @@ main {
 
 .royal-whoisroyal{
     text-align: center;
-    font-family: "Pacifico", cursive;
+    font-family: "Permanent Marker", cursive;
 }
 
 .royal img{
@@ -82,7 +82,7 @@ main {
 }
 .homepa{
     font-size: 30px;
-    font-family: "Pacifico", cursive;
+    font-family: "Permanent Marker", cursive;
     color: #ffffff;
     text-align: center;
 }
@@ -101,3 +101,12 @@ footer{
 .homepage1{
     color: rgb(255, 230, 0);
 }
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: red;
+}
+
