@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Spicy+Rice&display=swap');
+
+body {
+    font-family: "Spicy Rice", serif;
+    margin: auto;
+    padding: 10px;
+    background-color: #ebb379;
+    color: #333;
+}
+body.index{
+    background-image: url(images/royal7.jpg);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-position-y: top;
+}
+
+header {
+    text-align: center;
+    background-color: #e8d6c3;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #805f19;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+main h1{
+    text-align: center;
+    font-family: "Spicy Rice", serif;
+}
+main {
+    padding: 20px;
+}
+
+.royal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.royal-whoisroyal{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.royal img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.royal p{
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.homep{
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+    color: #ff0000;
+    text-align: center;
+}
+.homepa{
+    font-size: 30px;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+.more1{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: "Spicy Rice", serif;
+}
+
+.homepage1{
+    color: rgb(255, 230, 0);
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: red;
+}
+
